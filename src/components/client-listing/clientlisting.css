@@ -1,0 +1,17 @@
+.rdt_Pagination > span:nth-child(1),
+  .rdt_Pagination > div:nth-child(2) {
+    display: inline-flex;
+    gap: 10px; 
+  }
+  
+  .rdt_Pagination > span:nth-child(3) {
+    margin-left: auto;
+  }
+  
+  .rdt_Pagination > div:nth-child(4) {
+    margin-left: auto; 
+  }
+  
+  .MuiButtonBase-root{
+    background-color:  none !important;
+  }

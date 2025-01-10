@@ -1,0 +1,7 @@
+.CustomSelect {
+  appearance: none; /* Remove default styling */
+  -webkit-appearance: none; /* Remove default styling for Safari */
+  -moz-appearance: none; /* Remove default styling for Firefox */
+  background: url("../../../../public/drop.png") no-repeat 98% 50%;
+  background-size: 12px; /* Adjust based on your icon size */
+}

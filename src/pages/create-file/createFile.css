@@ -1,0 +1,7 @@
+.ql-container{
+    /* border: 2px solid red !important; */
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+   
+}

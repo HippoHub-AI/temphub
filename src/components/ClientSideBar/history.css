@@ -1,0 +1,47 @@
+.scroll {
+    overflow-y: auto;
+  }
+  
+  .scroll::-webkit-scrollbar {
+    width: 7px;
+    
+  }
+  
+  .scroll::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 2px grey; */
+    border-radius: 10px; 
+    margin-top: 10px;
+
+  }
+  
+  .scroll::-webkit-scrollbar-thumb {
+    background: #1B2559;
+    border-radius: 10px;
+  }
+  .MuiList-root>div{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+/* background-color: #1B2559 !important; */
+border-radius: 8px;
+
+  }
+
+  .notselected>nav>.MuiButtonBase-root{
+    background-color:  #1B2559 !important;
+  }
+  .selected>nav>.MuiButtonBase-root{
+    background-color:  #F8FAFC !important;
+  }
+
+  .MuiList-root>div>div>span{
+    font-weight: 600;
+    font-size: 1rem /* 16px */;
+    line-height: 1.5rem /* 24px */;
+    
+    color: white;
+  }
+  .selected>.MuiList-root>div>div>span
+  {
+    color: black !important;
+  }

@@ -1,0 +1,48 @@
+@import "../src/style/font.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rdt_TableHeadRow{
+    background: #E0E5F2 !important;
+    border-radius: 0px !important;
+    color: #1B2559 !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "PlusJakartaSans", sans-serif !important;
+
+}
+.rdt_TableHeadRow>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rdt_TableBody>div>div{
+    border-right: 1px solid #E0E5F2;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.rdt_TableBody>div:last-child{
+    border-bottom: 1px solid #E0E5F2;
+
+}
+.MuiModal-root{
+    z-index: 99999999999999999999 !important;
+}
+body {
+    overflow: auto !important;
+    padding-right: 0px !important;
+  }
+
+  .loader {
+    animation: spin 1s ease infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  

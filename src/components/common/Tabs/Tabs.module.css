@@ -1,0 +1,10 @@
+.active {
+  color: #000;
+}
+
+.active .gradientText {
+  /* background: -webkit-linear-gradient(106.68deg, #ee7e4e 8.17%, #f87101 100%); */
+  background: #1B2559;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
