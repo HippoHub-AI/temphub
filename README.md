@@ -1,7 +1,7 @@
 # 🚀 React + TypeScript + Vite: Project Setup and Guide
 
 This template sets up a minimal project with React and TypeScript using Vite, including Hot Module Replacement (HMR) and some basic ESLint rules.
-
+Test
 ## 🛠️ Installation Steps
 
 Follow these steps to get started with this project:
